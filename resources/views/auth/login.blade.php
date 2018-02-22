@@ -26,6 +26,8 @@
 					</div>
 
 				</div>
+
+				<div>First we need to add something here.</div>
 				
 				{!! Form::close() !!}
 
