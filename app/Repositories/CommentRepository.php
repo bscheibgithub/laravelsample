@@ -26,6 +26,7 @@ class CommentRepository extends BaseRepository {
 		return $this->model
 		->with('post', 'user')
 		->oldest('seen')
+        ->mostPopular()
 		->latest()
 		->paginate($n);
 	}
